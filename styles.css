@@ -1,0 +1,333 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.profile{
+    min-width: 400px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    min-height: fit-content;
+    text-align: center;
+}
+
+.profile > img{
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 50px;
+    transition: ease-in-out 200ms;
+}
+
+.profile > img:hover{
+    width: 320px;
+    border-radius: 150px;
+    margin-top: 50px;
+}
+
+.hey{
+    min-width: 300px;
+
+}
+
+.hey > p{
+    margin: 0px;
+    margin-top: 20%;
+    font-size: 2rem;
+    padding-bottom: 0px;
+}
+
+.hey > h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+.contact{
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+}
+
+.phone > img{
+    width: 60px;
+    margin-right: 20px;
+    height: 60px;
+    margin-top: 15px
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.email > img{
+    width: 60px;
+    margin-right: 20px;
+    height: 60px;
+    margin-top: 15px
+}
+
+.middle{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.middle > p{
+    font-size: 3rem;
+}
+
+.middle  h1{
+    margin-top: 100px;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.middle img{
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.personal-bg{
+    background-color: #003039;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.personal{
+    display: flex;
+    padding: 40px;
+    margin: 0 15%;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.personal-topic > h2{
+    font-size: 3rem;
+}
+
+
+.personal-content{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.achievements{
+    display: flex;
+    padding: 20px;
+    margin: 5%;
+    margin-left: 8%;
+    border-bottom: 10px solid #003039;
+    max-width: 1000px;
+}
+
+.achievements-topic{
+    max-width: 350px;
+    
+}
+
+.achievements-topic > h2{
+    font-size: 3rem;
+    margin-right: 0;
+}
+
+.achievements-topic > img{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.achievements-content{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    border-left: 7px dotted #fcbf49;
+    padding-left: 15px;
+}
+
+.achievements-content > h3{
+    font-size: 2.5rem;
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.achievements-content li{
+    margin-top: 10px;
+}
+
+
+
+.skillset{
+    display: flex;
+    padding: 20px;
+    margin: 0 5%;
+    margin-left: 8%;
+
+}
+
+.skillset-topic{
+    max-width: 350px;
+    border-right: 7px dotted #fcbf49;
+}
+
+.skillset-topic > h2{
+    font-size: 3rem;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+ 
+.skillset-topic img{
+    width: 300px;
+}
+
+.skillset-content{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.skillset-content h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.skillset-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillset-icon img{
+    width: 150px;
+    transition: ease-in-out 200ms;
+}
+
+.skillset-icon img:hover{
+    width: 170px;
+}
+
+
+.skillset-icon div{
+    text-align: center;
+    margin: 20px;
+}
+
+.skillset-topic h3{
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+.skillset-icon a{
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px 0;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: ease-in-out 200ms;
+}
+
+.skillset-icon a:hover{
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 30px 0;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.yt{
+    text-align: center;
+    margin-top: 100px;
+    margin: 0 5%;
+    background-color: #003039;
+    color:white;
+    font-style: italic;
+}
+
+.yt h1{
+    padding-top: 70px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+.vision{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+.vision h1{
+    font-size: 3rem;
+}
+
+.vision p{
+    font-size: 1.5rem;
+}
+
+.vision img{
+    width: 600px
+}
+
+
+
+
+.highlight{
+    color:#d62828;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.back-color{
+    background-color: #f77f00;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bg-black{
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+
+.bg-pale{
+    color: black;
+    background-color: #eae2b7;
+    font-style: italic;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
